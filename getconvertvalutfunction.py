@@ -19,18 +19,18 @@ def getconvertvalut(fromvalut, tovalut, amount):
 
 
 
-def getsymols():
-
-
-    url = "https://api.apilayer.com/exchangerates_data/symbols"
-
-    payload = {}
-    headers = {
-        "apikey": "Your api Ozdbekini"
-    }
-
-    response = requests.request("GET", url, headers=headers, data=payload)
-
-    status_code = response.status_code
-    result = response.json()
-    return result
+# def getsymols():
+#
+#
+#     url = "https://api.apilayer.com/exchangerates_data/symbols"
+#
+#     payload = {}
+#     headers = {
+#         "apikey": "Your api Ozdbekini"
+#     }
+#
+#     response = requests.request("GET", url, headers=headers, data=payload)
+#
+#     status_code = response.status_code
+#     result = response.json()
+#     return result
